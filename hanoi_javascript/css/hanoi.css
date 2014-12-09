@@ -1,0 +1,38 @@
+.tower {
+  position: relative;
+  width: 150px;
+  height: 300px;
+  float: left;
+  border: 2px solid black;
+}
+
+.disc[data-size="3"] {
+  width: 140px;
+  background-color: teal;
+}
+
+.disc[data-size="2"] {
+  width: 110px;
+  background-color: orange;
+}
+
+.disc[data-size="1"] {
+  width: 80px;
+  background-color: tomato;
+}
+
+.disc{
+  bottom: 0;
+  width: 140px;
+  height: 60px;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.tower:hover {
+  background-color: lightblue;
+}
+
+.highlight {
+  background: lightblue;
+}
